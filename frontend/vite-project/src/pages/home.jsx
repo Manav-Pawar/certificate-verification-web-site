@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import AppNavbar from "./navbar";
 
 // Corrected the relative path for the image
-import HomeImage from '../assets/Home-image.png';
+import diplomaImage from '../assets/diploma-flat-style_1010-552.avif';
 
 const Home = () => {
   return (
@@ -22,7 +22,7 @@ const Home = () => {
 
         <div>
           <img
-            src={HomeImage}
+            src={diplomaImage}
             alt="Home"
             style={{
               width: "60%",
